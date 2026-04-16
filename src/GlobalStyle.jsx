@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -7,30 +7,24 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   :root {
-    --dark-color: #776716;
-    --color: #F2DA07;
+    --dark-color: #0E1111;
     --black: #0E1111;
   }
   body {
-    font-family: 'Vrdznagir';
+    font-family: 'armFont';
     letter-spacing: 1px;
-    background: #F3F3F3;
+    background: #FAF2E5;
     color: var(--black);
     scroll-behavior: smooth;
   }
   @font-face {
-    font-family: 'family-home';
+    font-family: 'englishFont';
     src: url("/font/family-home.woff2");
     font-display: swap;
   }
   @font-face {
-    font-family: "DavelAghvor";
-    src: url("/font/davel-aghvor.woff2");
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Vrdznagir';
-    src: url("/font/Vrdznagir.woff2");
+    font-family: 'armFont';
+    src: url("/font/armFont.ttf");
     font-display: swap;
   }
   h4 {
@@ -39,11 +33,11 @@ const GlobalStyle = createGlobalStyle`
   }
   h1 {
     font-size: 80px;
-    color: var(--color);
-    opacity: .9;
-    font-weight: 100;
     margin-top: 25px;
-    text-shadow: 1px 6px 5px rgba(0,0,0,0.5);    /* -webkit-text-stroke: 1px var(--color); */
+    /* text-shadow: 1px 6px 5px rgba(0,0,0,0.5);    */
+  }
+  h2 {
+    font-size: 40px;
   }
 `;
 const Container = styled.div`

@@ -18,10 +18,9 @@ function App() {
     <>
       <FirstPage />
       <SecondPage />
-      <ThirdPage />
       <ForthPage />
       <LastFooterPage />
-      <BackToTop />
+      {/* <BackToTop /> */}
     </>
   )
 }

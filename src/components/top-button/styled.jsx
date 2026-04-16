@@ -6,7 +6,7 @@ export const BackToTopButton = styled.button`
 	right: 20px;
 	padding: 8px 15px;
 	border: none;
-	background: linear-gradient(135deg, var(--color), #e6b87a);
+	background: var(--dark-color);
 	color: white;
 	border-radius: 50%;
 	cursor: pointer;

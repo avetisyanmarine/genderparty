@@ -1,31 +1,70 @@
-import { Container } from "../../GlobalStyle"
-import { ForthPagePart, ForthPagePartContextLast } from "./styled"
-import ImageSrc from "/pool.jpg"
+import { Container } from "../../GlobalStyle";
+import Restoran from "../../assets/image/restoran.jpg";
+import Image2 from "/site-images/image2.jpg";
+import ImageLast from "/site-images/imagelast.jpg";
+import { ForthPagePart, ForthPagePartContextLast } from "./styled";
+import { i } from "framer-motion/client";
 export const ForthPage = () => {
-    return (
-        <ForthPagePart className="relative overflow-hidden">
-            <Container>
-                <div>
-                    <h2 className="text-[48px] font-[family-home]">Tsaghkunq Pool</h2>
-                    <h2 className="text-[32px] font-[Vrdznagir] text-[var(--dark-color)]">Հասցե՝ էջմիածին, գյուղ Ծաղկունք</h2>
-                    <img className="w-full rounded-[30px] h-[250px]" loading="lazy" src={ImageSrc} data-aos="fade-right" />
-                    <h3 className="text-[28px] font-[Vrdznagir] text-[var(--dark-color)]">Ինչպե՞ս հասնել</h3>
-                    <iframe
-                        className="w-full rounded-[30px] h-[250px]"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.0434473985276!2d44.273364!3d40.173356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041fc1f29f05d29%3A0x76835012409!2sԾաղկունք%20Pool!5e0!3m2!1shy!2sam!4v1234567890"
-                        width="600"
-                        height="450"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    />
-                </div>
-            </Container>
-            <img src="/bant.png" alt="bant" className="w-full" />
-            <ForthPagePartContextLast>
-                <h2 className="text-[32px] font-[Vrdznagir] text-[var(--dark-color)]">Եկեք միասին կիսենք <br />ուրախությունն ու ժպիտները</h2>
-            </ForthPagePartContextLast>
-        </ForthPagePart>
-    )
-}
+  return (
+    <ForthPagePart className="relative overflow-hidden">
+      <Container>
+        <div className="bg-[#fff] rounded-[180px] white-block">
+          <h3
+            style={{ marginTop: "20px" }}
+            data-aos="fade-in"
+            className="text-[32px] text-[var(--dark-color)]"
+          >
+            Դվին Ռեստորանային Համալիրի Տարածք
+          </h3>
+          <h1 data-aos="fade-in">10:30</h1>
+          <div className="line h-[80px] bg-[var(--black)]"></div>
+          <img src={Restoran} alt="Restoran" className="rounded-[170px]" />
+          <a
+            href="#"
+            className="text-[var(--dark-color)] text-[30px] underline"
+          >
+            Քարտեզ
+          </a>
+          <div className="line h-[80px] bg-[var(--black)]"></div>
+          <h3
+            style={{ marginTop: "20px" }}
+            data-aos="fade-in"
+            className="text-[32px] text-[var(--dark-color)]"
+          >
+            Աշտարակ
+          </h3>
+          <h1 data-aos="fade-in">12:00</h1>
+          <h5 className="h5h" data-aos="fade-in">
+            Տաքացվող լողավազանի շուրջ խորոված և այլ համովություններ ճաշակելու։
+          </h5>
+          <img
+            src={Image2}
+            data-aos="fade-in"
+            alt="Image2"
+            className="rounded-[170px] bg-cover"
+            style={{ marginTop: "40px" }}
+          />
+        </div>
+        <ForthPagePartContextLast>
+          <h3
+            data-aos="fade-in"
+            className="text-[32px] text-[var(--dark-color)]"
+            style={{ marginTop: "20px" }}
+          >
+            Խնդրում ենք ուրախացնել մեզ և հաստատել Ձեր մասնակցությունը ❤️
+          </h3>
+          <div>
+            <img
+              src={ImageLast}
+              data-aos="fade-in"
+              alt="Image2"
+              className="rounded-[170px] bg-cover"
+              style={{ margin: "40px 0" }}
+            />
+          </div>
+          <h2>Սիրով՝ <br /> Վահե և Գայանե</h2>
+        </ForthPagePartContextLast>
+      </Container>
+    </ForthPagePart>
+  );
+};
