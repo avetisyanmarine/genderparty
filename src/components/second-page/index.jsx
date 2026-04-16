@@ -97,7 +97,7 @@ export const SecondPage = () => {
                   <h2>{formatNumber(timeLeft.minutes)}</h2>
                   <p>Րոպե</p>
                 </Flexible>
-                <Flexible className="uniqueBorder">
+                <Flexible className="uniqueBorder countdown">
                   <h2>{formatNumber(timeLeft.seconds)}</h2>
                   <p>Վայրկյան</p>
                 </Flexible>
