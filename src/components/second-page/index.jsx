@@ -27,7 +27,7 @@ export const SecondPage = () => {
     }
   };
   const formatNumber = (num) => String(num).padStart(2, "0");
-  const date = new Date(2026, 6, 1, 0, 0, 0);
+  const date = new Date(2026, 4, 1, 0, 0, 0);
 
   const calculateTimeLeft = () => {
     const now = new Date();
