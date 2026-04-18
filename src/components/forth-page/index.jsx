@@ -71,9 +71,6 @@ export const ForthPage = () => {
               style={{ margin: "40px 0" }}
             />
           </div>
-          <h2>
-            Սիրով՝ <br /> Վահե և Գայանե
-          </h2>
         </ForthPagePartContextLast>
       </Container>
     </ForthPagePart>
