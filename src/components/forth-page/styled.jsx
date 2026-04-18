@@ -21,7 +21,7 @@ const ForthPagePart = styled.div`
     margin: 15px auto;
   }
   .h5h {
-    font-size: 26px;
+    font-size: 24px;
   }
 `;
 const ForthPagePartContext = styled.div``;

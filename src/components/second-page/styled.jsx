@@ -61,17 +61,13 @@ const GridDiv = styled(Flexible)`
   div {
     flex-direction: column;
     text-align: center;
-    padding: 0 20px 16px 20px;
+    padding: 0 18px 16px 18px;
     font-weight: 500;
 
     p {
       font-weight: 500;
       font-size: 22px;
       line-height: 12px;
-    }
-    /* border-right: 1px solid black; */
-    .uniqueBorder {
-      border: 0;
     }
   }
 `;

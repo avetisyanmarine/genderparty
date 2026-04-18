@@ -103,7 +103,7 @@ export const SecondPage = () => {
                   <h2>{formatNumber(timeLeft.minutes)}</h2>
                   <p>Րոպե</p>
                 </Flexible>
-                <Flexible className="uniqueBorder countdown">
+                <Flexible className="countdown" style={{ border: 0 }}>
                   <h2>{formatNumber(timeLeft.seconds)}</h2>
                   <p>Վայրկյան</p>
                 </Flexible>
@@ -119,10 +119,13 @@ export const SecondPage = () => {
           </h2>
           <h5 className="text-[24px] font-[500]" data-aos="zoom-in">
             Սիրով հրավիրում եմ Ձեզ` <br /> միասին անցկացնելու <br />
-            <div className="flex justify-center items-center">
+            <div
+              style={{ marginTop: "20px" }}
+              className="flex justify-center items-center"
+            >
               <img src={Boy} alt="" className="w-[100px]" />
               <div>
-                <p className="text-[#8694C1]">Gender</p>{" "}
+                <p className="text-[#8694C1]">Gender</p>
                 <p className="text-[#CE829A]">Party</p>
               </div>
               <img src={Girl} alt="" className="w-[100px]" />
@@ -149,13 +152,13 @@ export const SecondPage = () => {
           alt="White Heart"
         />
         <h2
-          style={{ fontSize: "50px" }}
+          style={{ fontSize: "50px", marginBottom: "15px" }}
           className="font-[englishFont]"
           data-aos="fade-in "
         >
           Dress Code
         </h2>
-        <h5 className="text-[26px]" data-aos="fade-in">
+        <h5 className="text-[24px]" data-aos="fade-in">
           Եթե մտածում եք, որ փոքրիկը աղջիկ է , ապա անհրաժեշտ է լինել սպիտակ կամ
           մարմնագույն հագուստով, իսկ եթե մտածում եք , որ տղա է լինելու՝ կրել
           կապույտ կամ սև հագուստ։

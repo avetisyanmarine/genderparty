@@ -7,10 +7,10 @@ export const LastFooterPage = () => {
       <Container>
         <LastFooterPagePartContext>
           <div>
-            <div className="flex flex-col justify-start items-start gap-[15px]">
+            <div className="flex flex-col justify-start items-start gap-[25px]">
               <svg
-                width="17"
-                height="17"
+                width="23"
+                height="23"
                 viewBox="0 0 17 17"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@ export const LastFooterPage = () => {
                 </g>
               </svg>
               <svg
-                width="16"
-                height="17"
+                width="23"
+                height="23"
                 viewBox="0 0 16 17"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

@@ -18,7 +18,7 @@ export const ForthPage = () => {
             Դվին Ռեստորանային Համալիրի Տարածք
           </h3>
           <h1 data-aos="fade-in">10:30</h1>
-          <div className="line h-[80px] bg-[var(--black)]"></div>
+          <div className="line h-[40px] bg-[var(--black)]"></div>
           <img src={Restoran} alt="Restoran" className="rounded-[170px]" />
           <a
             href="https://maps.app.goo.gl/uktYYRFPNm7mL8o1A"
@@ -26,7 +26,7 @@ export const ForthPage = () => {
           >
             Քարտեզ
           </a>
-          <div className="line h-[80px] bg-[var(--black)]"></div>
+          <div className="line h-[40px] bg-[var(--black)]"></div>
           <h3
             style={{ marginTop: "20px" }}
             data-aos="fade-in"
@@ -36,7 +36,7 @@ export const ForthPage = () => {
           </h3>
           <img src={Loghavazan} alt="" className="rounded-[170px]" />
           <h1 data-aos="fade-in">12:00</h1>
-          <div className="line h-[80px] bg-[var(--black)]"></div>
+          <div className="line h-[40px] bg-[var(--black)]"></div>
 
           <h5
             className="h5h"
@@ -44,8 +44,8 @@ export const ForthPage = () => {
             style={{ marginBottom: "50px" }}
           >
             Ուղևորվում ենք Աշտարակ՝ տաքացվող լողավազանի շուրջ խորոված և այլ
-            համովություններ ճաշակելու։
-            դե ինչ ծնունդ՝ առանց երաժշտության և համեղ տորթի։
+            համովություններ ճաշակելու։ <br />
+            Դե ինչ ծնունդ՝ առանց երաժշտության և համեղ տորթի։
           </h5>
           <img src={Birthday} alt="" className="rounded-[170px]" />
         </div>
