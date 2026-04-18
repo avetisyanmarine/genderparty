@@ -40,7 +40,7 @@ const ThirdPagePartCalendar = styled(Flexible)`
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-45%, -45%);
+            transform: translate(-32%, -38%);
             background-image: url('/Heart.webp');
             background-size: cover;
         }

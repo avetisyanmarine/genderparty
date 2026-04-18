@@ -10,6 +10,9 @@ import { useEffect, useState } from "react";
 import { ThirdPage } from "../third-page";
 import WhiteHeart from "../../assets/image/white-heart.png";
 import image1 from "/site-images/image1.jpg";
+import Boy from "../../assets/image/boy.jpg";
+import Girl from "../../assets/image/girl.jpg";
+import Image2 from "/site-images/image2.jpg";
 
 export const SecondPage = () => {
   const handleClick = (e) => {
@@ -81,7 +84,10 @@ export const SecondPage = () => {
               01.05.2026
             </h3>
             <div className="text-center">
-              <h2 style={{ marginTop: "30px", marginBottom: "15px" }} data-aos="zoom-in">
+              <h2
+                style={{ marginTop: "30px", marginBottom: "15px" }}
+                data-aos="zoom-in"
+              >
                 Առիթին Մնաց
               </h2>
               <GridDiv data-aos="fade-in">
@@ -112,11 +118,25 @@ export const SecondPage = () => {
             Սիրելի ընկերներ
           </h2>
           <h5 className="text-[24px] font-[500]" data-aos="zoom-in">
-            Սիրով հրավիրում եմ ձեզ <br /> միասին կիսելու իմ ծննդյան
-            ուրախությունը։ <br /> Ձեր ներկայությամբ օրը կլինի ավելի գեղեցիկ ու
-            հիշարժան։
+            Սիրով հրավիրում եմ Ձեզ` <br /> միասին անցկացնելու <br />
+            <div className="flex justify-center items-center">
+              <img src={Boy} alt="" className="w-[100px]" />
+              <div>
+                <p className="text-[#8694C1]">Gender</p>{" "}
+                <p className="text-[#CE829A]">Party</p>
+              </div>
+              <img src={Girl} alt="" className="w-[100px]" />
+            </div>
+            <br /> և նշելու Վահեի տարեդարձը։ <br /> Ձեր ներկայությամբ օրը կլինի
+            ավելի գեղեցիկ ու հիշարժան։
           </h5>
-          <hr className="bg-[#7F4E15] w-1/3" />
+          <img
+            src={Image2}
+            data-aos="fade-in"
+            alt="Image2"
+            className="rounded-[170px] bg-cover"
+            style={{ marginTop: "40px" }}
+          />
           <h2 data-aos="zoom-in" style={{ marginTop: "30px" }}>
             Պահպանիր Օրը
           </h2>
@@ -135,22 +155,17 @@ export const SecondPage = () => {
         >
           Dress Code
         </h2>
-        <h3 className="text-[32px]" data-aos="fade-in">
-          Եթե մտածում եք, որ փոքրիկը աղջիկ է , ապա անհրաժեշտ է լինել սպիտակ կամ մարմնագույն հագուստով, իսկ եթե մտածում եք , որ տղա է լինելու՝  կրել կապույտ հագուստ։
-        </h3>
+        <h5 className="text-[26px]" data-aos="fade-in">
+          Եթե մտածում եք, որ փոքրիկը աղջիկ է , ապա անհրաժեշտ է լինել սպիտակ կամ
+          մարմնագույն հագուստով, իսկ եթե մտածում եք , որ տղա է լինելու՝ կրել
+          կապույտ կամ սև հագուստ։
+        </h5>
         <CirclesContainer>
+          <Circle className="bg-[#000]" />
           <Circle className="bg-[#FFFFFF]" />
           <Circle className="bg-[#375990]" />
           <Circle className="bg-[#E4CDA6]" />
         </CirclesContainer>
-        <h2 data-aos="fade-in">Սիրով սպասում ենք</h2>
-        <img
-          style={{ margin: "40px 0" }}
-          src={image1}
-          alt=""
-          className="rounded-[180px]"
-          data-aos="fade-in"
-        />
       </Container>
     </SecondPagePart>
   );

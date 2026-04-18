@@ -9,7 +9,7 @@ export const ThirdPage = () => {
             <Container>
                 <ThirdPagePartCalendar data-aos="fade-in" className="text-[36px]">
                     {[...Array(35)].map((_, i) =>
-                        i > 1 && i <= 32 ? <div className={i - 1 == 16 ? "special" : ""}>{i - 1}</div> : <div></div>
+                        i > 1 && i <= 32 ? <div className={i - 1 == 1 ? "special" : ""}>{i - 1}</div> : <div></div>
                     )}
                 </ThirdPagePartCalendar>
             </Container>

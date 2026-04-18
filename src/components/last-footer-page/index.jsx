@@ -45,16 +45,13 @@ export const LastFooterPage = () => {
             </div>
             <div className="unique flex flex-col justify-start gap-[10px] border-l-2">
               <a
-                href="https://www.instagram.com/user/"
+                href="https://www.instagram.com/gayane_889320/"
                 className=" text-[30px]!"
               >
-                your_instagram_account
+                Gayane's_instagram
               </a>
               <p>
-                Սեղմիր ՝ {" "}
-                <a href="tel:077506269">
-                   011-11-11-11
-                </a>
+                Սեղմիր ՝ <a href="tel:077015889">077-01-58-89</a>
               </p>
             </div>
           </div>
@@ -64,7 +61,7 @@ export const LastFooterPage = () => {
               href="https://www.instagram.com/webinvite.am/"
               className="font-[600]"
             >
-                <br />
+              <br />
               Web Invite
             </a>
             -ի կողմից
