@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { BackToTop } from "./components/top-button";
 import AttendanceGuests from "./components/AttendanceGuests";
+import { MusicPage } from "./components/music-page";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <ForthPage />
       <AttendanceGuests />
       <LastFooterPage />
+      <MusicPage />
       {/* <BackToTop /> */}
     </>
   );

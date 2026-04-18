@@ -26,22 +26,27 @@ export const ForthPage = () => {
           >
             Քարտեզ
           </a>
-          <div className="line h-[40px] bg-[var(--black)]"></div>
           <h3
-            style={{ marginTop: "20px" }}
+            style={{ marginTop: "80px" }}
             data-aos="fade-in"
             className="text-[32px] text-[var(--dark-color)]"
           >
             L'Etoile Area
           </h3>
-          <img src={Loghavazan} alt="" className="rounded-[170px]" />
           <h1 data-aos="fade-in">12:00</h1>
           <div className="line h-[40px] bg-[var(--black)]"></div>
+          <img src={Loghavazan} alt="" className="rounded-[170px]" />
+          <a
+            href="https://yandex.com/maps/-/CPCUeSj7"
+            className="text-[var(--dark-color)] text-[30px] underline"
+          >
+            Քարտեզ
+          </a>
 
           <h5
             className="h5h"
             data-aos="fade-in"
-            style={{ marginBottom: "50px" }}
+            style={{ margin: "30px 0" }}
           >
             Ուղևորվում ենք Աշտարակ՝ տաքացվող լողավազանի շուրջ խորոված և այլ
             համովություններ ճաշակելու։ <br />
